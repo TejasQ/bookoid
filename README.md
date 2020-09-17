@@ -4,6 +4,10 @@ This project exists for people to learn web development and thrive in Open Sourc
 
 ![context](http://drops.g2i.co/13mzS9+)
 
+## What can I contribute?
+
+The [issues](https://github.com/TejasQ/bookoid/issues) page has a list of things we want to do and a bunch of discussions being had.
+
 ## Technologies
 
 This project uses:
@@ -18,7 +22,7 @@ so far. We'd recommend familiarity with these before continuing. Read each one's
 
 ## Learning
 
-The best way to learn if you're unfamiliar with most things is to check out the [pull requests](pulls) page to find "pull requests" for each feature. Pull requests are things that contain _modified code_ that _adds or removes_ functionality or behavior.
+The best way to learn if you're unfamiliar with most things is to check out the [pull requests](https://github.com/TejasQ/bookoid/pulls) page to find "pull requests" for each feature. Pull requests are things that contain _modified code_ that _adds or removes_ functionality or behavior.
 
 ## Contributing
 
