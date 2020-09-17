@@ -2,6 +2,8 @@
 
 This project exists for people to learn web development and thrive in Open Source, while also being a killer book library management style app.
 
+![context](http://drops.g2i.co/13mzS9+)
+
 ## Technologies
 
 This project uses:
