@@ -1,12 +1,12 @@
 import * as React from 'react';
 
-interface ViewToggleProps {
+type ViewToggleProps = {
   onClick?: (
     event: React.MouseEvent<HTMLDivElement, MouseEvent>,
     state: 'grid' | 'list',
   ) => void;
   value?: 'grid' | 'list';
-}
+};
 
 const ViewToggle: React.FC<ViewToggleProps> = (props) => {
   const { onClick, value } = props;

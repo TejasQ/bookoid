@@ -1,9 +1,6 @@
 import * as React from 'react';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-interface BookCardProps {}
-
-const BookCard: React.FC<BookCardProps> = () => {
+const BookCard: React.FC = () => {
   return (
     <div className="w-40 m-2">
       <img
