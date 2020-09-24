@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookCard, ViewToggle } from '@bookoid/components';
+import { BookCard, ViewToggle } from '../components';
 
 const HomePage: React.FC = () => {
   return (
