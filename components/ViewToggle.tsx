@@ -1,4 +1,7 @@
 import * as React from 'react';
+
+import clsx from 'clsx';
+
 import ViewGridIcon from './ViewGridIcon';
 import ViewListIcon from './ViewListIcon';
 
@@ -26,24 +29,23 @@ const ViewToggle: React.FC<ViewToggleProps> = (props) => {
     [state, setState, onClick],
   );
 
-  let listStyle = '';
-  let gridStyle = '';
-
-  if (state === 'list') {
-    listStyle += ' shadow bg-white';
-  } else {
-    gridStyle += ' shadow bg-white';
-  }
-
   return (
     <div
       className="flex rounded p-1 cursor-pointer bg-gray-500"
       onClick={onClickHandler}
     >
-      <div className={`rounded p-1${listStyle}`}>
+      <div
+        className={clsx('rounded', 'p-1', {
+          'shadow bg-white': state === 'list',
+        })}
+      >
         <ViewListIcon />
       </div>
-      <div className={`rounded p-1${gridStyle}`}>
+      <div
+        className={clsx('rounded', 'p-1', {
+          'shadow bg-white': state !== 'list',
+        })}
+      >
         <ViewGridIcon />
       </div>
     </div>
