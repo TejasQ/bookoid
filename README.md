@@ -28,7 +28,7 @@ The best way to learn if you're unfamiliar with most things is to check out the 
 
 You need to be familiar with [`git`](https://git-scm.com/) if you aren't already. We recommend checking the docs.
 
-If you're good with `git`, and have [NodeJS](https://nodejs.org/) installed, 
+If you're good with `git`, and have [NodeJS](https://nodejs.org/) installed,
 
 1. Clone this repo
 1. `cd` into it and run `yarn` to install dependencies
